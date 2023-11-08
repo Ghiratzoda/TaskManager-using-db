@@ -13,7 +13,6 @@ while run:
     query = input("What's on your mind? ")
     match query:
         case '1':
-            print(query)
             signin.sign_in()
         case '2':
             accounting.create_account()
